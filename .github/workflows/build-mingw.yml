@@ -13,7 +13,7 @@ jobs:
     env:
       libraryName: fpm
       cmakeInstallationPath: fpm-installation
-      tagName: v1.1.0
+      tagName: 19ad7a3336e2ec0d7faa9da5232398873b555cfb
       mingwTargetZip: fpm-${{ github.ref_name }}-winlibs-x86_64-posix-seh-gcc-12.2.0-mingw-w64ucrt-10.0.0-r4.zip
     steps:
         - uses: actions/checkout@v3
